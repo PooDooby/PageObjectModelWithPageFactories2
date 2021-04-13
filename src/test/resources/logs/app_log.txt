@@ -1,0 +1,3 @@
+INFO    2021-04-13 12:22:45,804 [main] base.BaseTest  - Config {Properties are Loaded !!!!
+INFO    2021-04-13 12:22:46,861 [main] base.BaseTest  - Chrome launched !!!
+INFO    2021-04-13 12:22:50,467 [main] base.BaseTest  - Navigateed to :https://www.carwale.com/

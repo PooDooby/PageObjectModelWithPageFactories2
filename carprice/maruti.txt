@@ -1,0 +1,60 @@
+maruti car brand name and price 
+The Car Model is :-- Maruti Suzuki SwiftThe Car Price is :-- ? 5.73 Lakh
+The Car Model is :-- Maruti Suzuki BalenoThe Car Price is :-- ? 5.88 Lakh
+The Car Model is :-- Maruti Suzuki AltoThe Car Price is :-- ? 3.00 Lakh
+The Car Model is :-- Maruti Suzuki ErtigaThe Car Price is :-- ? 7.69 Lakh
+The Car Model is :-- Maruti Suzuki Vitara BrezzaThe Car Price is :-- ? 7.39 Lakh
+The Car Model is :-- Maruti Suzuki DzireThe Car Price is :-- ? 5.94 Lakh
+The Car Model is :-- Maruti Suzuki Wagon RThe Car Price is :-- ? 4.66 Lakh
+The Car Model is :-- Maruti Suzuki CelerioThe Car Price is :-- ? 4.53 Lakh
+The Car Model is :-- Maruti Suzuki S-PressoThe Car Price is :-- ? 3.71 Lakh
+The Car Model is :-- Maruti Suzuki IgnisThe Car Price is :-- ? 4.90 Lakh
+The Car Model is :-- Maruti Suzuki XL6The Car Price is :-- ? 9.85 Lakh
+The Car Model is :-- Maruti Suzuki CiazThe Car Price is :-- ? 8.41 Lakh
+The Car Model is :-- Maruti Suzuki EecoThe Car Price is :-- ? 3.98 Lakh
+The Car Model is :-- Maruti Suzuki S-CrossThe Car Price is :-- ? 8.39 Lakh
+The Car Model is :-- Maruti Suzuki Celerio XThe Car Price is :-- ? 4.99 Lakh
+The Car Model is :-- Maruti Suzuki New-gen CelerioThe Car Price is :-- ? 4.50 Lakh
+The Car Model is :-- Maruti Suzuki Futuro-EThe Car Price is :-- ? 9.00 Lakh
+The Car Model is :-- Maruti Suzuki Wagon R EVThe Car Price is :-- ? 9.00 Lakh
+The Car Model is :-- Maruti Suzuki JimnyThe Car Price is :-- ? 7.00 Lakh
+maruti car brand name and price 
+The Car Model is :-- Maruti Suzuki SwiftThe Car Price is :-- ? 5.73 Lakh
+The Car Model is :-- Maruti Suzuki BalenoThe Car Price is :-- ? 5.88 Lakh
+The Car Model is :-- Maruti Suzuki AltoThe Car Price is :-- ? 3.00 Lakh
+The Car Model is :-- Maruti Suzuki ErtigaThe Car Price is :-- ? 7.69 Lakh
+The Car Model is :-- Maruti Suzuki Vitara BrezzaThe Car Price is :-- ? 7.39 Lakh
+The Car Model is :-- Maruti Suzuki DzireThe Car Price is :-- ? 5.94 Lakh
+The Car Model is :-- Maruti Suzuki Wagon RThe Car Price is :-- ? 4.66 Lakh
+The Car Model is :-- Maruti Suzuki CelerioThe Car Price is :-- ? 4.53 Lakh
+The Car Model is :-- Maruti Suzuki S-PressoThe Car Price is :-- ? 3.71 Lakh
+The Car Model is :-- Maruti Suzuki IgnisThe Car Price is :-- ? 4.90 Lakh
+The Car Model is :-- Maruti Suzuki XL6The Car Price is :-- ? 9.85 Lakh
+The Car Model is :-- Maruti Suzuki CiazThe Car Price is :-- ? 8.41 Lakh
+The Car Model is :-- Maruti Suzuki EecoThe Car Price is :-- ? 3.98 Lakh
+The Car Model is :-- Maruti Suzuki S-CrossThe Car Price is :-- ? 8.39 Lakh
+The Car Model is :-- Maruti Suzuki Celerio XThe Car Price is :-- ? 4.99 Lakh
+The Car Model is :-- Maruti Suzuki New-gen CelerioThe Car Price is :-- ? 4.50 Lakh
+The Car Model is :-- Maruti Suzuki Futuro-EThe Car Price is :-- ? 9.00 Lakh
+The Car Model is :-- Maruti Suzuki Wagon R EVThe Car Price is :-- ? 9.00 Lakh
+The Car Model is :-- Maruti Suzuki JimnyThe Car Price is :-- ? 7.00 Lakh
+maruti car brand name and price 
+The Car Model is :-- Maruti Suzuki SwiftThe Car Price is :-- ? 5.73 Lakh
+The Car Model is :-- Maruti Suzuki BalenoThe Car Price is :-- ? 5.88 Lakh
+The Car Model is :-- Maruti Suzuki AltoThe Car Price is :-- ? 3.00 Lakh
+The Car Model is :-- Maruti Suzuki ErtigaThe Car Price is :-- ? 7.69 Lakh
+The Car Model is :-- Maruti Suzuki Vitara BrezzaThe Car Price is :-- ? 7.39 Lakh
+The Car Model is :-- Maruti Suzuki DzireThe Car Price is :-- ? 5.94 Lakh
+The Car Model is :-- Maruti Suzuki Wagon RThe Car Price is :-- ? 4.66 Lakh
+The Car Model is :-- Maruti Suzuki CelerioThe Car Price is :-- ? 4.53 Lakh
+The Car Model is :-- Maruti Suzuki S-PressoThe Car Price is :-- ? 3.71 Lakh
+The Car Model is :-- Maruti Suzuki IgnisThe Car Price is :-- ? 4.90 Lakh
+The Car Model is :-- Maruti Suzuki XL6The Car Price is :-- ? 9.85 Lakh
+The Car Model is :-- Maruti Suzuki CiazThe Car Price is :-- ? 8.41 Lakh
+The Car Model is :-- Maruti Suzuki EecoThe Car Price is :-- ? 3.98 Lakh
+The Car Model is :-- Maruti Suzuki S-CrossThe Car Price is :-- ? 8.39 Lakh
+The Car Model is :-- Maruti Suzuki Celerio XThe Car Price is :-- ? 4.99 Lakh
+The Car Model is :-- Maruti Suzuki New-gen CelerioThe Car Price is :-- ? 4.50 Lakh
+The Car Model is :-- Maruti Suzuki Futuro-EThe Car Price is :-- ? 9.00 Lakh
+The Car Model is :-- Maruti Suzuki Wagon R EVThe Car Price is :-- ? 9.00 Lakh
+The Car Model is :-- Maruti Suzuki JimnyThe Car Price is :-- ? 7.00 Lakh
