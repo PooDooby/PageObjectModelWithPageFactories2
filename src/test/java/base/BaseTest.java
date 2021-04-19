@@ -76,11 +76,7 @@ public class BaseTest {
 
 		
 		///***********************************************browser Details starts************************************************///
-		/*
-		 * if (System.getenv("browser") != null && !System.getenv("browser").isEmpty())
-		 * { browser = System.getenv("browser"); } else { browser =
-		 * Config.getProperty("browser"); } Config.setProperty("browser", browser);
-		 */
+	
 
 		if (browserName.equals("firefox")) {
 

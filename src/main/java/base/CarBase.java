@@ -17,7 +17,7 @@ public class CarBase {
 
 	WebDriver driver;
 
-	@FindBy(xpath = "//*[@id=\"root\"]/div[3]/div/div[2]/div/h1")
+	@FindBy(xpath = "//a[@class='o-dJmcbh o-eemiLE']") 
 
 	public WebElement carTitle;
 
