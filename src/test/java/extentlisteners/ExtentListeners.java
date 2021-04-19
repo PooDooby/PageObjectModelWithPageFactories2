@@ -37,7 +37,7 @@ public class ExtentListeners implements ITestListener {
 	static String fileName = "Extent_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
 
 	private static ExtentReports extent = ExtentManager
-			.createInstance(System.getProperty("user.dir") + "\\target\\reports\\" + fileName);
+			.createInstance(System.getProperty("user.dir") + "/target/surefire-reports/html/" + fileName);
 
 	public static ExtentTest test;
 
