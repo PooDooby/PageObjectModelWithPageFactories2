@@ -36,14 +36,14 @@ import utilities.ExcelReader;
 public class BaseTest {
 
 
-	public WebDriver driver;
+	public static  WebDriver driver;
 	public Logger log = Logger.getLogger(BaseTest.class.getName());
 	public Properties Config = new Properties();
 	public FileInputStream fis;
 	public ExcelReader excel = new ExcelReader(".\\src\\test\\resources\\excel\\testdata.xlsx");
 	public WebDriverWait wwait;
 	static WebElement dropdown;
-	public String srcfileName;
+	public  String srcfileName;
 
 	
 	
@@ -132,29 +132,33 @@ public class BaseTest {
 				TimeUnit.SECONDS);
 
 		wwait = new WebDriverWait(driver, Integer.parseInt(Config.getProperty("explicit.wait")));
+		System.out.println("under configuration " +driver.toString());
 
 }
 	
-	// -----------------------------------------------SCREENSHOT UTIL STARTS----------------------------------------------------------------------//
-		public void captureScreenshot() {
-			
-
-			Date d = new Date();
-
-			srcfileName = d.toString().replace(":", "_").replace(" ", "_") + ".jpg";
-
-			File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			try {
-				FileUtils.copyFile(screenshot, new File(System.getProperty("user.dir") + "\\target\\reports\\" + srcfileName));
-				FileUtils.copyFile(screenshot,
-						new File(System.getProperty("user.dir") + "\\test-output\\html\\" + srcfileName));
-
-			} catch (IOException e) {
-				
-				e.printStackTrace();
-			}
-
-		}
+/*
+ * // -----------------------------------------------SCREENSHOT UTIL
+ * STARTS----------------------------------------------------------------------/
+ * / public void captureScreenshot() {
+ * 
+ * System.out.println("under captureScreenshot " +driver.toString()); Date d =
+ * new Date();
+ * 
+ * srcfileName = d.toString().replace(":", "_").replace(" ", "_") + ".jpg";
+ * 
+ * File screenshot = ((TakesScreenshot)
+ * driver).getScreenshotAs(OutputType.FILE); try {
+ * FileUtils.copyFile(screenshot, new File(System.getProperty("user.dir") +
+ * "\\target\\reports\\" + srcfileName)); FileUtils.copyFile(screenshot, new
+ * File(System.getProperty("user.dir") + "\\test-output\\html\\" +
+ * srcfileName));
+ * 
+ * } catch (IOException e) {
+ * 
+ * e.printStackTrace(); }
+ * 
+ * }
+ */
 
 		public void captureElementScreenshot(WebElement element) {
 

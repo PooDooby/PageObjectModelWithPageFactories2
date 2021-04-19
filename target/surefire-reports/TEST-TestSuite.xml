@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="106.539" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="114.155" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="webdriver.chrome.driver" value="C:\Users\Dooby\eclipse-workspace\Final-Projects\PageObjectModelWithPageFactories2//src//test//resources//executables//chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dooby\AppData\Local\Temp\surefire217154949702596419\surefirebooter8544623594196489170.jar C:\Users\Dooby\AppData\Local\Temp\surefire217154949702596419 2021-04-13T12-21-13_426-jvmRun1 surefire5951322811789839002tmp surefire_022724434890665282tmp"/>
+    <property name="sun.java.command" value="C:\Users\Dooby\AppData\Local\Temp\surefire13981897556106454505\surefirebooter1914485798211238117.jar C:\Users\Dooby\AppData\Local\Temp\surefire13981897556106454505 2021-04-13T13-05-41_858-jvmRun1 surefire12597367426191169802tmp surefire_07358448074511174287tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Dooby\eclipse-workspace\Final-Projects\PageObjectModelWithPageFactories2\target\test-classes;C:\Users\Dooby\eclipse-workspace\Final-Projects\PageObjectModelWithPageFactories2\target\classes;C:\Users\Dooby\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Dooby\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Dooby\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Dooby\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Dooby\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Dooby\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Dooby\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Dooby\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Dooby\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Dooby\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Dooby\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Dooby\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Dooby\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dooby\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Dooby\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Dooby\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Dooby\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Dooby\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Dooby\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Dooby\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Dooby\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Dooby\.m2\repository\io\github\bonigarcia\webdrivermanager\3.2.0\webdrivermanager-3.2.0.jar;C:\Users\Dooby\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Dooby\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Dooby\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Dooby\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Dooby\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Dooby\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Dooby\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Dooby\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Dooby\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Dooby\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Dooby\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Dooby\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Dooby\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Dooby\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\Dooby\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Dooby\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Dooby\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Dooby\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\Dooby\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\Users\Dooby\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0.jar;C:\Users\Dooby\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Dooby\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Dooby\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\Dooby\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Dooby\.m2\repository\mysql\mysql-connector-java\6.0.5\mysql-connector-java-6.0.5.jar;C:\Users\Dooby\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;C:\Users\Dooby\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Dooby\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Dooby\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Dooby\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;C:\Users\Dooby\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Dooby\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Dooby\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Dooby\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Dooby\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Dooby\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\Users\Dooby\.m2\repository\com\aventstack\extentreports\4.1.4\extentreports-4.1.4.jar;C:\Users\Dooby\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Dooby\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\Dooby\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dooby\AppData\Local\Temp\surefire217154949702596419\surefirebooter8544623594196489170.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dooby\AppData\Local\Temp\surefire13981897556106454505\surefirebooter1914485798211238117.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
@@ -49,70 +49,70 @@
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-15.0.1\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-15.0.1/bin/server;C:/Program Files/Java/jdk-15.0.1/bin;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-15.0.1\bin;C:\Users\Dooby\eclipse\java-2020-12\eclipse;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="findCartest[maruti, chrome, Y](1)" classname="testcases.FindCarTest" time="13.053">
+  <testcase name="findCartest[maruti, chrome, Y](1)" classname="testcases.FindCarTest" time="13.709">
     <system-out><![CDATA[Maruti Suzuki Cars
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 18400
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 21481
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1618296675.987][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1618296675.987][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-Apr 13, 2021 12:21:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1618299344.539][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1618299344.539][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Apr 13, 2021 1:05:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 Cannot connect to database server
 ]]></system-err>
   </testcase>
-  <testcase name="findCartest[kia, chrome, Y](2)" classname="testcases.FindCarTest" time="11.502">
+  <testcase name="findCartest[kia, chrome, Y](2)" classname="testcases.FindCarTest" time="11.395">
     <system-out><![CDATA[Kia Cars
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 6019
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 25525
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1618296689.293][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1618296689.293][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-Apr 13, 2021 12:21:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1618299358.531][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1618299358.531][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Apr 13, 2021 1:05:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 Cannot connect to database server
 ]]></system-err>
   </testcase>
-  <testcase name="findCartest[hyundai, chrome, Y](3)" classname="testcases.FindCarTest" time="11.379">
+  <testcase name="findCartest[hyundai, chrome, Y](3)" classname="testcases.FindCarTest" time="11.689">
     <system-out><![CDATA[Hyundai Cars
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 17043
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 41730
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1618296701.396][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1618296701.396][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-Apr 13, 2021 12:21:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1618299371.315][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1618299371.315][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Apr 13, 2021 1:06:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 Cannot connect to database server
 ]]></system-err>
   </testcase>
-  <testcase name="findCartest[tata, chrome, Y](4)" classname="testcases.FindCarTest" time="10.682">
+  <testcase name="findCartest[tata, chrome, Y](4)" classname="testcases.FindCarTest" time="13.352">
     <system-out><![CDATA[Tata Cars
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 27545
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 38299
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1618296713.390][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1618296713.390][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-Apr 13, 2021 12:21:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1618299383.683][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1618299383.683][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Apr 13, 2021 1:06:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 Cannot connect to database server
 ]]></system-err>
   </testcase>
-  <testcase name="findCartest[maruti, chrome, Y](1)" classname="testcases.CarPriceTest" time="14.245">
+  <testcase name="findCartest[maruti, chrome, Y](1)" classname="testcases.CarPriceTest" time="14.635">
     <system-out><![CDATA[Maruti Suzuki Cars
 The Car Model is :-- Maruti Suzuki SwiftThe Car Price is :-- ₹ 5.73 Lakh
 The Car Model is :-- Maruti Suzuki BalenoThe Car Price is :-- ₹ 5.88 Lakh
@@ -134,36 +134,36 @@ The Car Model is :-- Maruti Suzuki Futuro-EThe Car Price is :-- ₹ 9.00 Lakh
 The Car Model is :-- Maruti Suzuki Wagon R EVThe Car Price is :-- ₹ 9.00 Lakh
 The Car Model is :-- Maruti Suzuki JimnyThe Car Price is :-- ₹ 7.00 Lakh
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 35326
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 47389
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1618296725.005][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1618296725.005][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-Apr 13, 2021 12:22:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1618299398.011][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1618299398.011][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Apr 13, 2021 1:06:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 Cannot connect to database server
 ]]></system-err>
   </testcase>
-  <testcase name="findCartest[kia, chrome, Y](2)" classname="testcases.CarPriceTest" time="11.885">
+  <testcase name="findCartest[kia, chrome, Y](2)" classname="testcases.CarPriceTest" time="13.107">
     <system-out><![CDATA[Kia Cars
 The Car Model is :-- Kia SeltosThe Car Price is :-- ₹ 9.90 Lakh
 The Car Model is :-- Kia SonetThe Car Price is :-- ₹ 6.79 Lakh
 The Car Model is :-- Kia CarnivalThe Car Price is :-- ₹ 24.95 Lakh
 The Car Model is :-- Kia RioThe Car Price is :-- ₹ 6.00 Lakh
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 23139
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 31427
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1618296739.754][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1618296739.754][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-Apr 13, 2021 12:22:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1618299413.382][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1618299413.382][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Apr 13, 2021 1:06:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 Cannot connect to database server
 ]]></system-err>
   </testcase>
-  <testcase name="findCartest[hyundai, chrome, Y](3)" classname="testcases.CarPriceTest" time="12.866">
+  <testcase name="findCartest[hyundai, chrome, Y](3)" classname="testcases.CarPriceTest" time="13.969">
     <system-out><![CDATA[Hyundai Cars
 The Car Model is :-- Hyundai CretaThe Car Price is :-- ₹ 10.00 Lakh
 The Car Model is :-- Hyundai VenueThe Car Price is :-- ₹ 6.87 Lakh
@@ -180,18 +180,18 @@ The Car Model is :-- Hyundai New ElantraThe Car Price is :-- ₹ 16.00 Lakh
 The Car Model is :-- Hyundai New KonaThe Car Price is :-- ₹ 23.00 Lakh
 The Car Model is :-- Hyundai AX1 micro-SUVThe Car Price is :-- ₹ 4.00 Lakh
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 2796
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 36630
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1618296752.224][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1618296752.224][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-Apr 13, 2021 12:22:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1618299427.176][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1618299427.176][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Apr 13, 2021 1:07:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 Cannot connect to database server
 ]]></system-err>
   </testcase>
-  <testcase name="findCartest[tata, chrome, Y](4)" classname="testcases.CarPriceTest" time="14.108">
+  <testcase name="findCartest[tata, chrome, Y](4)" classname="testcases.CarPriceTest" time="14.669">
     <system-out><![CDATA[Tata Cars
 The Car Model is :-- Tata NexonThe Car Price is :-- ₹ 7.10 Lakh
 The Car Model is :-- Tata SafariThe Car Price is :-- ₹ 14.70 Lakh
@@ -206,13 +206,13 @@ The Car Model is :-- Tata Tiago EVThe Car Price is :-- ₹ 5.00 Lakh
 The Car Model is :-- Tata Tigor EV FaceliftThe Car Price is :-- ₹ 9.50 Lakh
 The Car Model is :-- Tata Altroz EVThe Car Price is :-- ₹ 12.00 Lakh
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 18157
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 30561
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1618296766.312][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1618296766.312][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-Apr 13, 2021 12:22:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1618299441.803][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1618299441.803][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Apr 13, 2021 1:07:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 Cannot connect to database server
 ]]></system-err>

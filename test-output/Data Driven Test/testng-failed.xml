@@ -10,9 +10,19 @@
       <class name="testcases.FindCarTest">
         <methods>
           <include name="tearDown"/>
-          <include name="findCartest" invocation-numbers="3"/>
+          <include name="findCartest" invocation-numbers="0 1 2 3"/>
         </methods>
       </class> <!-- testcases.FindCarTest -->
     </classes>
   </test> <!--  Find Car Test(failed) -->
+  <test thread-count="5" name=" Car Price Test(failed)">
+    <classes>
+      <class name="testcases.CarPriceTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="findCartest" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- testcases.CarPriceTest -->
+    </classes>
+  </test> <!--  Car Price Test(failed) -->
 </suite> <!-- Failed suite [Data Driven Test] -->

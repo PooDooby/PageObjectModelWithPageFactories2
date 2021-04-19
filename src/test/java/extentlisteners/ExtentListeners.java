@@ -1,12 +1,16 @@
 package extentlisteners;
 
+
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Date;
+
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
+
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
@@ -14,9 +18,20 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import base.BaseTest;
 
-public class ExtentListeners extends BaseTest implements ITestListener {
+
+
+public class ExtentListeners implements ITestListener {
+
+
+	
+	/*
+	 * public WebDriver driver;
+	 * 
+	 * 
+	 * public ExtentListeners(WebDriver driver) { super(driver); this.driver =
+	 * driver; // TODO Auto-generated constructor stub }
+	 */
 
 	static Date d = new Date();
 	static String fileName = "Extent_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
@@ -29,10 +44,12 @@ public class ExtentListeners extends BaseTest implements ITestListener {
 	public void onTestStart(ITestResult result) {
 
 		String param = (String) result.getParameters()[0];
-		test = extent
-				.createTest(result.getTestClass().getName() + "     @TestCase : " + result.getMethod().getMethodName() + " -- " + param);
+		test = extent.createTest(result.getTestClass().getName() + "     @TestCase : "
+				+ result.getMethod().getMethodName() + " -- " + param);
 
 	}
+	
+
 
 	public void onTestSuccess(ITestResult result) {
 
@@ -42,17 +59,18 @@ public class ExtentListeners extends BaseTest implements ITestListener {
 		test.pass(m);
 
 	}
+	
 
 	public void onTestFailure(ITestResult result) {
 
 		// ReportNG
-
-		captureScreenshot();
+		ExtentManager.captureScreenshot();
 
 		System.setProperty("org.uncommons.reportng.escape-output", "false");
-		Reporter.log("<a href=" + fileName + " target=\"_blank\">Screenshot link</a>");
+		Reporter.log("<a href=" + ExtentManager.srcfileName + " target=\"_blank\">Screenshot link</a>");
 		Reporter.log("<br>");
-		Reporter.log("<a href=" + fileName + " target=\"_blank\"><img src=" + fileName + " height=200 width=200></a>");
+		Reporter.log(
+				"<a href=" + ExtentManager.srcfileName + " target=\"_blank\"><img src=" + ExtentManager.srcfileName + " height=200 width=200></a>");
 
 //////////////////////////////////
 
@@ -64,11 +82,10 @@ public class ExtentListeners extends BaseTest implements ITestListener {
 
 		try {
 
-			String screenshot = fileName;
+			String screenshots = ExtentManager.srcfileName;
 			test.fail("<b><font color=red>" + "Screenshot of failure" + "</font></b><br>",
-					MediaEntityBuilder.createScreenCaptureFromPath(screenshot).build());
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
+					MediaEntityBuilder.createScreenCaptureFromPath(screenshots).build());
+		} catch (IOException e) { // TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
